@@ -14,7 +14,7 @@
     background-color: lightyellow;
     width: 50%;
     margin: 0px;
-    
+    font-family: 'Meera Inimai';
     line-height: 20px;
     font-size: 18px;
     padding:20px;
@@ -24,20 +24,19 @@
 
   .header
   {
-      background-color:rgb(121, 173, 206);
+      background-color:rgb(168, 219, 250);
       
   }
   
   .header h1
 {
    text-align:center;
-    vertical-align:text-top;
     color:black;
 }
 .header h2
 {
     text-align:right;
-    vertical-align:text-top;
+    
 }
 
   .navigation ul {
@@ -54,19 +53,25 @@
   
   .navigation li a {
     display: block;
-    color: white;
+    color:white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight:bold;
   }
   
   .navigation li a:hover {
     background-color:#787878;
   }
-.container
+
+container {
+  width: 100%;
+  height:350px;
+}
+.container img
 {
-    
-    height:350px;
+  width:100%;
+
 }
   .centered {
     position: absolute;
@@ -80,8 +85,13 @@
 .col
 {
 display:flex;
-background-color: rgb(160, 158, 158);
+background-color: rgb(218, 216, 216);
 font-size:15px;
+
+}
+.col .col1
+{
+  font-family: 'Meera Inimai'
 }
 .foot
 {
@@ -90,6 +100,7 @@ font-size:15px;
     padding:5px;
     margin:0px;
     font-size:20px;
+    background-color:rgb(168, 219, 250);
     display: -webkit-flex;
 
 }
@@ -99,6 +110,7 @@ font-size:15px;
     margin:0px;
     width:50%;
     font-size:18px;
+    font-family: 'Meera Inimai';
     
       
 }

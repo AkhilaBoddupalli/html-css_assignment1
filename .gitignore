@@ -3,11 +3,18 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 
 404.html
-*.xml
-*.ico
-*.txt
+browserconfig.xml
+doc
+download.jpeg
+favicon.ico
+hero.jpeg
+robots.txt
+LICENSE.txt
+.git
+tile-wide.png
+tile.png
+site.webmanifest
+humans.txt
 icon.png
-title.png
-title.wide.png
-js/
-doc/
+js
+img/institute.jpg
